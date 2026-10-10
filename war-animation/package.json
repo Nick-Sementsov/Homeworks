@@ -1,0 +1,25 @@
+{
+  "name": "war-animation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion: анимация захвата территории (красные против синих)",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render WarMap out/war.mp4",
+    "still": "remotion still WarMap out/still.png",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/roboto-condensed": "5.3.0",
+    "@fontsource/russo-one": "5.3.0",
+    "@remotion/cli": "4.0.534",
+    "@remotion/fonts": "4.0.534",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

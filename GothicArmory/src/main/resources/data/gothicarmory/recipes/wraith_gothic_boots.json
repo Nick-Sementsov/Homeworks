@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " m ",
+    "sXs",
+    " m "
+  ],
+  "key": {
+    "m": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "s": {
+      "tag": "minecraft:soul_fire_base_blocks"
+    },
+    "X": {
+      "item": "magistuarmory:gothic_boots"
+    }
+  },
+  "result": {
+    "item": "gothicarmory:wraith_gothic_boots",
+    "count": 1
+  }
+}

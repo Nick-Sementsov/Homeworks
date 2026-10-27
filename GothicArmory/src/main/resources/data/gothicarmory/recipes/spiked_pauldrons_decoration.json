@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "n n",
+    "p p"
+  ],
+  "key": {
+    "n": {
+      "tag": "forge:nuggets/steel"
+    },
+    "p": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "gothicarmory:spiked_pauldrons_decoration",
+    "count": 1
+  }
+}

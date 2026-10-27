@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "tag": "minecraft:wooden_buttons"
+    },
+    {
+      "tag": "minecraft:wooden_buttons"
+    },
+    {
+      "tag": "forge:nuggets/iron"
+    }
+  ],
+  "result": {
+    "item": "gothicarmory:prayer_beads_decoration",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "f f",
+    "fdf",
+    " n "
+  ],
+  "key": {
+    "f": {
+      "tag": "forge:feathers"
+    },
+    "d": {
+      "tag": "forge:dyes/black"
+    },
+    "n": {
+      "tag": "forge:nuggets/iron"
+    }
+  },
+  "result": {
+    "item": "gothicarmory:raven_wings_decoration",
+    "count": 1
+  }
+}

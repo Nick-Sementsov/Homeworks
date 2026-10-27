@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gothicarmory:item/raven_wings_decoration",
+    "layer1": "gothicarmory:item/raven_wings_decoration_overlay"
+  }
+}

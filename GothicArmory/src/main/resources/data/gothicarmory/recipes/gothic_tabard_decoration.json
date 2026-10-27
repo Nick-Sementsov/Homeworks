@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "w w",
+    "wgw",
+    "www"
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:blue_wool"
+    },
+    "g": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "result": {
+    "item": "gothicarmory:gothic_tabard_decoration",
+    "count": 1
+  }
+}

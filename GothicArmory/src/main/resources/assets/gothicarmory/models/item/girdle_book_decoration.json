@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gothicarmory:item/girdle_book_decoration"
+  }
+}

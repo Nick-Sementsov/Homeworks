@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gothicarmory:item/gothic_cape_decoration",
+    "layer1": "gothicarmory:item/gothic_cape_decoration_overlay"
+  }
+}

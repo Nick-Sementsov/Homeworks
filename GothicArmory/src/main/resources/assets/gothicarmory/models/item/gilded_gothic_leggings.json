@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gothicarmory:item/gilded_gothic_leggings"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ndn",
+    "n n"
+  ],
+  "key": {
+    "n": {
+      "tag": "forge:nuggets/iron"
+    },
+    "d": {
+      "item": "minecraft:dead_bush"
+    }
+  },
+  "result": {
+    "item": "gothicarmory:thorn_crown_decoration",
+    "count": 1
+  }
+}

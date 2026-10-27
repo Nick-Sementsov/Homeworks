@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gothicarmory:item/wraith_gothic_spired_armet"
+  }
+}

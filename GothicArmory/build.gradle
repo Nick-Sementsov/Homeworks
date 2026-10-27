@@ -34,6 +34,10 @@ minecraft {
         }
 
         client {
+            // e.g. ./gradlew runClient -PclientArgs="--quickPlaySingleplayer MyWorld --width 1280 --height 720"
+            if (project.hasProperty('clientArgs')) {
+                args project.property('clientArgs').toString().split(' ')
+            }
         }
 
         server {

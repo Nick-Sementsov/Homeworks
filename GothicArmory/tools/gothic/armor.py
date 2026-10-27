@@ -117,7 +117,7 @@ def _helmet(m, style, o):
         h.box(-4, -8, -4, 8, 8, 8, 1.0, paint=plate(
             top=[ridge(), border('lr', 'trim', 1)], back=[ridge(), border('b', 'trim', 1)],
             lr=[vline(4, 2, 7, 'trim', 1), dots([(2, 2), (5, 2)], 'trim', 2), border('b', 'trim', 1)],
-            front=[hline(3, 0, None, 'void', 1), hline(4, 0, None, 'void', 1)]))
+            front=[ridge()]))
         h.box(-0.5, -10, -4, 1, 1, 8, (0.15, 0, 0), paint=plate(top=[vline(0, 0, None, 'trim', 2)]))
         h.box(-4, 0, -4, 8, 1, 8, (1.25, 0.15, 1.25), paint=plate(border('t', 'trim', 2)))
         visor = h.child('visor_r', (0, -3.6, -7.0), (0, 0.62, 0))
@@ -270,7 +270,7 @@ def _legs(m, style, o):
     cuisse_front = [flutes(2, 0), border('t', tr)] if o['fluting'] else [ridge(), border('t', tr)]
     l.box(-2, 0, -2, 4, 7, 4, 0.6, paint=plate(front=cuisse_front, back=[lames(3, 1)], lr=[border('t', tr)]))
     l.box(-2, 6, -3.5, 4, 3, 1, (0.6, 0.2, 0.0), paint=plate(
-        front=[mask(round_corners), edge_outline(tr, 1, sides='tlrb'), rivets([(1, 1), (2, 1)])], hide=('back',)))
+        front=[mask(round_corners), edge_outline(tr, 1, sides='tlrb'), dots([(1, 1), (2, 1)], *(('trim', 2) if o['trim'] == 'trim' else (M, 4)))], hide=('back',)))
     fan = 5 if o['fluting'] else 4
     l.box(-3.6, 5.5 - (fan - 4) / 2, -2.5, 1, fan, fan, 0.0, paint=Paint(M, 'metal', [], ('top', 'bottom', 'front', 'back'),
           west=[fan_shell(tr, front_left=False)], east=[fan_shell(tr, front_left=True)]))
